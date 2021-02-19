@@ -10,6 +10,7 @@ module.exports = {
     // 打包生成的代码支持什么特性
     environment: {
       arrowFunction: false, // 是否支持箭头函数
+      const: false,
     },
   },
   module: {
